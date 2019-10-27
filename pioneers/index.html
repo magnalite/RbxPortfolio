@@ -284,6 +284,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#intelligent-agents" title="Intelligent agents" class="md-nav__link">
+    Intelligent agents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#live-updates" title="Live updates" class="md-nav__link">
     Live updates
   </a>
@@ -383,6 +390,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#intelligent-agents" title="Intelligent agents" class="md-nav__link">
+    Intelligent agents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#live-updates" title="Live updates" class="md-nav__link">
     Live updates
   </a>
@@ -460,6 +474,11 @@ Pioneers has been carefully optimised every step of the way ensuring smooth game
 The backend is hosted on Google Cloud Platform and uses Nodejs with Redis. It is designed to be completely fault tolerant and scalable to withstand the demanding nature of Roblox. The API can be queried at <a href="https://api.mysty.dev">https://api.mysty.dev</a> although it will reject any request without a valid api key.
 <br/><br/>
 Data is efficiently stored to reduce Redis operations and maintain low network overhead, primarily via the extensive use of caching. </p>
+<h2 id="intelligent-agents">Intelligent agents</h2>
+<p><video width="100%" height="auto" controls loop autoplay> <source src="https://giant.gfycat.com/RespectfulDeliriousEquine.mp4"></video>
+Every agent has complete individual logic and can respond to changes in real time. Here you can see how their pathfinding is dynamic with their logic being computed every game round. 
+<br/><br/>
+This even extends to agent interactions, agents are capable of affecting each other even when they are processed by different compute nodes. And yes, this was very difficult to do!</p>
 <h2 id="live-updates">Live updates</h2>
 <p><video width="100%" height="auto" controls loop autoplay> <source src="https://giant.gfycat.com/ClassicRedAnnashummingbird.mp4"></video>
 Updates can incrementally rollout across api or compute nodes while still maintaining live gameplay. With multiple nodes and an incremental rollout users won't even be able to tell the game is updating.</p>
