@@ -435,25 +435,25 @@ Pioneers is a solo project, I have made every asset in the game with the only ex
 <li>Explore a world larger than any seen on Roblox</li>
 </ul>
 <h2 id="development-video">Development Video</h2>
-<p><iframe width="100%" height="350" src="https://www.youtube.com/embed/Cah4JHQbvfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="100%" height="350vw" src="https://www.youtube.com/embed/Cah4JHQbvfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 This video documents the development process with emphasis on demonstrating technical features and an example of following agile principles by making a minimum viable product then iterating. Currently unfinished and will be updated when Pioneers is more complete.
 <br/><br/></p>
 <h2 id="cross-server-replicationsynchronisation">Cross-Server Replication/Synchronisation</h2>
-<p><iframe width="100%" height="305" src="https://giant.gfycat.com/BitesizedRapidIndianelephant.mp4" frameborder="0"></iframe>
+<p><video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/BitesizedRapidIndianelephant.mp4"></video>
 The player on the left is using the normal Roblox client connected to a live Roblox server, the player on the right is playing from within Roblox studio. Player characters will also be replicated across servers.</p>
 <h2 id="dynamic-world-streaming">Dynamic World Streaming</h2>
-<p><iframe width="100%" height="380" src="https://giant.gfycat.com/GiddyFavoriteBarebirdbat.mp4" frameborder="0"></iframe>
+<p><video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/GiddyFavoriteBarebirdbat.mp4"></video>
 Units are streamed in as they come into view.
-<iframe width="100%" height="380" src="https://giant.gfycat.com/FondHarmoniousIndigobunting.mp4" frameborder="0"></iframe>
+<video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/FondHarmoniousIndigobunting.mp4"></video>
 This system is capable of per unit resolution.
-<iframe width="100%" height="290" src="https://giant.gfycat.com/GrippingAdorableHind.mp4" frameborder="0"></iframe>
+<video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/GrippingAdorableHind.mp4"></video>
 The server contains no objects! Everything is created on clients to reduce load on the server.
-<iframe width="100%" height="380" src="https://giant.gfycat.com/MilkyPaleFugu.mp4" frameborder="0"></iframe>
+<video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/MilkyPaleFugu.mp4"></video>
 Usually the view distance is 30 but here it is set to 5 to exagerate the streaming. When units are out of view distance they are cheaply updated to keep performance up, even on low end devices. View distance can be changed by the player to suit their preference. 
 <br/><br/>
 Roblox servers only fetch objects in partitions which players can see (partitions are sections of the world, similar to chunks in Minecraft) so they don't need to load the entire world. </p>
 <h2 id="high-performance">High Performance</h2>
-<p><iframe width="100%" height="405" src="https://giant.gfycat.com/KnobbyUnderstatedAlpinegoat.mp4" frameborder="0"></iframe>
+<p><video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/KnobbyUnderstatedAlpinegoat.mp4"></video>
 Pioneers has been carefully optimised every step of the way ensuring smooth gameplay. It has a small memory footprint, low cpu usage and uses minimal network bandwidth.  </p>
 <h2 id="strong-backend-architecture">Strong Backend Architecture</h2>
 <p><img alt="Backend architecture" src="../assets/backendarch.png" />
@@ -461,7 +461,7 @@ The backend is hosted on Google Cloud Platform and uses Nodejs with Redis. It is
 <br/><br/>
 Data is efficiently stored to reduce Redis operations and maintain low network overhead, primarily via the extensive use of caching. </p>
 <h2 id="live-updates">Live updates</h2>
-<p><iframe width="100%" height="370" src="https://giant.gfycat.com/ClassicRedAnnashummingbird.mp4" frameborder="0"></iframe>
+<p><video width="100%" height="auto" controls> <source src="https://giant.gfycat.com/ClassicRedAnnashummingbird.mp4"></video>
 Updates can incrementally rollout across api or compute nodes while still maintaining live gameplay. With multiple nodes and an incremental rollout users won't even be able to tell the game is updating.</p>
 <h2 id="and-more">And more</h2>
 <p>Those are just the most significant features currently implemented and Pioneers has many more features planned such as clan vs clan battles! 
